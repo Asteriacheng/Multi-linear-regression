@@ -1,2 +1,6 @@
 # Multi-liner regression
-Here includes my undergrad data analysis projects
+This project analyzes emancipative values using data from Wave 7 of the World Values Survey (2017–2022). Emancipative values, reflecting orientations toward personal autonomy, freedom of choice, and equality of opportunity, are an important indicator of social and cultural modernization. The dataset contains approximately 76,500 individuals nested within 53 countries, forming a two-level hierarchical structure.
+
+To properly account for the nested data structure, this study applies multilevel random-intercept modelling to examine variation in emancipative values across individuals and countries. The analysis follows a stepwise modelling framework, investigating (1) country-level variance decomposition, (2) individual demographic and socioeconomic predictors, (3) gender-specific interaction effects, (4) contextual compositional influences, and (5) macro-level country determinants including political and economic indicators.
+
+All statistical analyses are conducted in R using packages such as lme4, dplyr, and related tools. The project aims to disentangle individual, contextual, and structural drivers of emancipative value orientations while accounting for hierarchical data dependencies.
